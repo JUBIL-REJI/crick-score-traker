@@ -15,7 +15,7 @@ app.use("/prediction", router);
 app.use("/prediction/data", router);
 app.use("/register", loginrouter);
 app.use("/login", loginrouter);
-app.use("/team",teamRouter);
+app.use("/team-profile",teamRouter);
 
 app.listen(port, () => {
   console.log(`backend is connected to ${port}`);
